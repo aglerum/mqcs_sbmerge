@@ -1,0 +1,6 @@
+rule "008 (28) matches blank"
+when
+existsControl "008.{28,1}. "
+then
+     set indication."true"
+end
