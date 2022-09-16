@@ -1,0 +1,7 @@
+rule "Contains SBMERGE subfield 5"
+
+when
+      (exists "3**.5.*") OR (exists "4**.5.*") OR (exists "5**.5.*") OR (exists "6**.5.*") OR (exists "7**.5.*") OR (exists "8**.5.*") OR (exists "9**.5.*")
+then
+  set indication."true"
+end

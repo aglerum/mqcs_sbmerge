@@ -1,0 +1,7 @@
+rule "Contains 69x 79x 89x fields"
+
+when
+     exists "69*" OR  exists "79*" OR  exists "89*"
+then
+     set indication."true"
+end

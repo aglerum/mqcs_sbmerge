@@ -1,0 +1,7 @@
+rule "Contains subfield 5"
+
+when
+      (exists "260.5.*") 
+then
+  set indication."true"
+end
